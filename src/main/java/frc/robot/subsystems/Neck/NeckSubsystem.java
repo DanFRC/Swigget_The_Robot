@@ -1,4 +1,4 @@
-package frc.robot.subsystems.Drivebase;
+package frc.robot.subsystems.Neck;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.VictorSPX;
@@ -12,8 +12,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class TankDrivebase extends SubsystemBase {
-    public TankDrivebase() {}
+public class NeckSubsystem extends SubsystemBase {
+    public NeckSubsystem() {}
 
     // Elastic / Shuffleboard
     private ShuffleboardTab tab_pid = Shuffleboard.getTab("PID Tuning");
